@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Menu Section  */
+.menu_header{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top:10PX ;
+}
+.menu_section{
+    background-color:snow;
+    padding: 50px 20px;
+    text-align: center;
+}
+.menu_container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) ;
+    gap: 20px;
+}
+.menu_items img{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.menu_item h3{
+    margin: 16px 0 10px;
+}
+
+
+/* footer  */
+.footer{
+
+background-color: #ebb96f;
+height: 20px;
+text-align: center;
+  
+}
